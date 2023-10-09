@@ -9,14 +9,14 @@
     tools:context=".Login">
 
     <TextView
-        android:text="@string/login"
+        android:text="@string/register"
         android:textSize="25sp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-    />
+        />
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -49,20 +49,16 @@
     />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+    />
+
+    <Button
+        android:id="@+id/nav_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
-    />
-
-    <TextView
-        android:id="@+id/nav_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/clickReg"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
     />
 </LinearLayout>
